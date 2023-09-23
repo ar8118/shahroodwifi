@@ -27,7 +27,7 @@ Open `auth.json` and enter your username, passwrod pair.
 > }
 > ```
 >
-> [Chrome Download Link](https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/117.0.5938.92/linux64/chrome-linux64.zip)
+> [Chrome For Linux Download Link](https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/117.0.5938.92/linux64/chrome-linux64.zip)
 
 ## Usage
 
@@ -35,7 +35,7 @@ Open `auth.json` and enter your username, passwrod pair.
 $ scripts/run.sh
 ```
 
-> If you want to access the `shahroodwifi` CLI tool globally, you could run:
+> If you want to access the `shahroodwifi` CLI tool globally (available only on Linux), you could run:
 >
 > ```bash
 > $ npm run install
