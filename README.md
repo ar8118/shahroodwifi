@@ -26,6 +26,8 @@ Open `auth.json` and enter your username, passwrod pair.
 >   "chromeExecutable": "/absolute/path/to/the/chrome/executable"
 > }
 > ```
+>
+> [Chrome Download Link](https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/117.0.5938.92/linux64/chrome-linux64.zip)
 
 ## Usage
 
