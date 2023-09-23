@@ -1,10 +1,6 @@
 # Shahroodwifi
 
-A command line tool to make `login` | `check credit` process much easier
-
-```bash
-$ scripts/run.sh
-```
+A command line tool to make **login | check credit** process much easier
 
 ## Installation
 
@@ -15,7 +11,7 @@ $ npm install
 $ npm run init
 ```
 
-Open `auth.json` and enter your username, passwrod pair.
+Open `auth.json` and replace sample usernames/passwords with yours. (you can add as many **"username": "password"** pairs as you want)
 
 > if chrome couldn't be downloaded during npm install, use the link below,
 > download and extract it somewhere (It is recommended to be in the app directory).
@@ -29,20 +25,29 @@ Open `auth.json` and enter your username, passwrod pair.
 >
 > [Chrome For Linux Download Link](https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/117.0.5938.92/linux64/chrome-linux64.zip)
 
+> **Recommended For Linux Users**
+>
+> If you want to make this tool globally available, run `npm run install`.
+> Then instead of `node src/shahroodwifi.js` you can use `shahroodwifi`.
+
 ## Usage
 
+### Login
+
 ```bash
-$ scripts/run.sh
+$ node src/shahroodwifi.js login <username>
+# or if is globally installed:
+$ shahroodwifi login <username>
 ```
 
-> If you want to access the `shahroodwifi` CLI tool globally (available only on Linux), you could run:
->
-> ```bash
-> $ npm run install
-> ```
->
-> then simply run the command below from wherever you want.
->
-> ```bash
-> $ shahroodwifi
-> ```
+The `username` must be defined in `auth.json`.
+
+### Show credit
+
+```bash
+$ node src/shahroodwifi.js credit <username>
+# or if is globally installed:
+$ shahroodwifi credit <username>
+```
+
+The `username` must be defined in `auth.json`.
