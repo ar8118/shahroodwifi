@@ -1,0 +1,14 @@
+{
+  "name": "shahroodwifi",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "commander": "^11.0.0",
+    "puppeteer": "^21.3.4"
+  },
+  "scripts": {
+    "init": "cp sample-auth.json auth.json",
+    "install": "sudo ln -s $(pwd)/scripts/run.sh /usr/bin/shahroodwifi"
+  }
+}
