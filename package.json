@@ -9,6 +9,6 @@
   },
   "scripts": {
     "init": "cp sample-auth.json auth.json",
-    "install": "sudo ln -s $(pwd)/scripts/run.sh /usr/bin/shahroodwifi"
+    "install": "sudo rm /usr/bin/shahroodwifi; sudo ln -s $(pwd)/scripts/run.sh /usr/bin/shahroodwifi"
   }
 }
