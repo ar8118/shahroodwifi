@@ -11,5 +11,5 @@ export function getBrowserPath() {
 
   const packageJson = JSON.parse(readFileSync(packageJsonPath));
 
-  return packageJson.config.chromeExecutable;
+  return packageJson.config?.chromeExecutable;
 }
